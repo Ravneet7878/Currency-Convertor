@@ -1,4 +1,4 @@
-# **Currency Converter**
+# **Currency Convertor**
 
 This is a simple **Currency Converter** built with **React**, which allows users to convert between different currencies in real-time. The application fetches the latest exchange rates using an API and provides a smooth and interactive user experience.
 
