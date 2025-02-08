@@ -18,12 +18,12 @@ function App() {
         set_to(temp)
         set_converted_amount(amount)
         set_amount(converted_amount)
-    };
+    }
 
     const convert = () => {
         if(from_currency && from_currency[to]) set_converted_amount(amount * from_currency[to])
         else set_converted_amount(0)
-    };
+    }
 
     return (
         <div
