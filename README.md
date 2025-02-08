@@ -2,6 +2,13 @@
 
 This is a simple **Currency Converter** built with **React**, which allows users to convert between different currencies in real-time. The application fetches the latest exchange rates using an API and provides a smooth and interactive user experience.
 
+## Currency API
+
+To fetch real-time exchange rates, use the following API endpoint:
+
+```javascript
+let api_link = `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${currency}.json`
+
 ## **Features:**
 - **Real-time Currency Conversion**: Get accurate exchange rates instantly.
 - **Swap Currencies**: Quickly switch between currencies with a single button click.
