@@ -32,7 +32,7 @@ function App() {
         >
             <div className="w-full">
                 <div className="w-full max-w-xl mx-auto border border-gray-600 rounded-xl p-8 backdrop-blur-sm bg-white/40 shadow-lg">
-                    <h1 className="text-3xl font-bold text-center mb-6 text-black">Currency Converter</h1>
+                    <h1 className="text-3xl font-bold text-center mb-6 text-black">Currency Convertor</h1>
                     <form
                         onSubmit={(event) => {
                             event.preventDefault()
