@@ -8,6 +8,7 @@ To fetch real-time exchange rates, use the following API endpoint:
 
 ```javascript
 let api_link = `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${currency}.json`
+```
 
 ## **Features:**
 - **Real-time Currency Conversion**: Get accurate exchange rates instantly.
@@ -52,13 +53,13 @@ A custom hook is created to fetch exchange rates dynamically.
 
 ```javascript
 function useCurrency(currency) {
-    const [data, set_data] = useState({});
+    const [data, set_data] = useState({})
 
     useEffect(() => {
         fetch(`https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${currency}.json`)
         .then((response) => response.json())
-        .then((response) => set_data(response[currency]));
-    }, [currency]);
+        .then((response) => set_data(response[currency]))
+    }, [currency])
 
     return data;
 }
