@@ -61,7 +61,5 @@ function useCurrency(currency) {
         .then((response) => set_data(response[currency]))
     }, [currency])
 
-    return data;
+    return data
 }
-
-
